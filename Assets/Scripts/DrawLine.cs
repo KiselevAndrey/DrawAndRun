@@ -6,12 +6,13 @@ public class DrawLine : MonoBehaviour
     [Header("References")]
     [SerializeField] private Camera mainCamera;
     [SerializeField] private GameObject linePrefab;
+    [SerializeField] private Transform lineParent;
 
     [Header("Parameters")]
     [SerializeField, Min(0)] private float minDistance = 0.1f;
 
     private LineRenderer _lineRenderer;
-    private List<Vector3> _fingerPosition;
+    private List<Vector3> _fingerPosition = new List<Vector3>();
     private Vector3 _currentFingerPosition;
     private bool _isFirstTouch = true;
 
@@ -19,7 +20,7 @@ public class DrawLine : MonoBehaviour
     {
         if (Input.touchCount > 0)
         {
-            if (TakeTouchRaycast(out _currentFingerPosition))
+            if (TakeTouchRaycast(out _currentFingerPosition, lineParent))
             {
                 if (!_isFirstTouch) UpdateLine();
                 else CreateLine();
@@ -34,7 +35,8 @@ public class DrawLine : MonoBehaviour
         _fingerPosition.Add(_currentFingerPosition);
         _fingerPosition.Add(_currentFingerPosition);
 
-        _lineRenderer = Instantiate(linePrefab).GetComponent<LineRenderer>();
+        _lineRenderer = Instantiate(linePrefab, lineParent).GetComponent<LineRenderer>();
+        //_lineRenderer = Instantiate(linePrefab).GetComponent<LineRenderer>();
         _lineRenderer.SetPosition(0, _currentFingerPosition);
         _lineRenderer.SetPosition(1, _currentFingerPosition);
 
@@ -43,7 +45,7 @@ public class DrawLine : MonoBehaviour
 
     private void UpdateLine()
     {
-        if(Vector3.Distance(_currentFingerPosition, _fingerPosition[_fingerPosition.Count - 1]) < minDistance)
+        if(Vector3.Distance(_currentFingerPosition, _fingerPosition[_fingerPosition.Count - 1]) > minDistance)
         {
             _fingerPosition.Add(_currentFingerPosition);
             _lineRenderer.positionCount++;
@@ -51,12 +53,13 @@ public class DrawLine : MonoBehaviour
         }
     }
 
-    
+
     private bool TakeTouchRaycast(out Vector3 position)
     {
         position = Vector3.zero;
         Touch touch = Input.GetTouch(0);
         Ray ray = mainCamera.ScreenPointToRay(touch.position);
+
 
         if (Physics.Raycast(ray, out RaycastHit hit))
         {
@@ -65,6 +68,17 @@ public class DrawLine : MonoBehaviour
         }
 
         return false;
+    }
+
+    private bool TakeTouchRaycast(out Vector3 position, Transform parent)
+    {
+        bool result = TakeTouchRaycast(out position);
+        if (result)
+        {
+            position -= parent.position;
+        }
+
+        return result;
     }
 
 }
