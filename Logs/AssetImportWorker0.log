@@ -1,0 +1,749 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.508; Version 2004; 64bit' Language: 'ru' Physical Memory: 12170 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Test/DrawAndRun
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62194
+Successfully changed project path to: D:/Unity/Test/DrawAndRun
+D:/Unity/Test/DrawAndRun
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 25.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Test/DrawAndRun/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 850M (ID=0x1391)
+    Vendor:   
+    VRAM:     4055 MB
+    Driver:   26.21.14.4598
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001983 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 24.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.952 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002583 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.0 MB.
+System memory in use after: 57.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1557.
+Total: 2.202400 ms (FindLiveObjects: 0.237600 ms CreateObjectMapping: 0.089500 ms MarkObjects: 1.765400 ms  DeleteObjects: 0.108400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000535 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Added "DREAMTECK_SPLINES" to Standalone Scripting define in Player Settings
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Dreamteck.Splines.Editor.AddScriptingDefines:AddScriptingDefine (string,UnityEditor.BuildTargetGroup) (at Assets/Dreamteck/Splines/Editor/WelcomeScreen.cs:37)
+Dreamteck.Splines.Editor.AddScriptingDefines:.cctor () (at Assets/Dreamteck/Splines/Editor/WelcomeScreen.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Dreamteck/Splines/Editor/WelcomeScreen.cs Line: 37)
+
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.4 MB.
+System memory in use after: 61.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1703.
+Total: 2.738000 ms (FindLiveObjects: 0.268100 ms CreateObjectMapping: 0.193300 ms MarkObjects: 2.206500 ms  DeleteObjects: 0.068300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000694 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.166 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.8 MB.
+System memory in use after: 61.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1719.
+Total: 2.283000 ms (FindLiveObjects: 0.222600 ms CreateObjectMapping: 0.068400 ms MarkObjects: 1.929800 ms  DeleteObjects: 0.060000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Dreamteck/Splines/Examples/Particles
+  artifactKey: Guid(e87e40eb9b9552c4798c2fd8feaee28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Particles using Guid(e87e40eb9b9552c4798c2fd8feaee28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7377eabef8a46852da9223f20e6dc5') in 0.019810 seconds
+  Import took 0.022365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.216668 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Particles/Scene.unity
+  artifactKey: Guid(d7738751f69804b419bc43fab2e7eb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Particles/Scene.unity using Guid(d7738751f69804b419bc43fab2e7eb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f550b844f39626dab39bbcc372f154c3') in 0.019240 seconds
+  Import took 0.021926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 278.875326 seconds.
+  path: Assets/Dreamteck/Utilities
+  artifactKey: Guid(2fbb66a5971772f45809349df9956dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Utilities using Guid(2fbb66a5971772f45809349df9956dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a1ce2640779c83c6528446c0ed2732') in 0.012545 seconds
+  Import took 0.015423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004364 seconds.
+  path: Assets/Dreamteck/Utilities
+  artifactKey: Guid(2fbb66a5971772f45809349df9956dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Utilities using Guid(2fbb66a5971772f45809349df9956dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a1ce2640779c83c6528446c0ed2732') in 0.005020 seconds
+  Import took 0.007896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.159960 seconds.
+  path: Assets/Dreamteck/Splines
+  artifactKey: Guid(c5221f4094c07ce47ad35201e769a812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines using Guid(c5221f4094c07ce47ad35201e769a812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b792f4ca4ee93c0064fdbb0c3c5fd5') in 0.011858 seconds
+  Import took 0.014372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.132232 seconds.
+  path: Assets/Dreamteck/Splines/Examples.unitypackage
+  artifactKey: Guid(dd726bdc743dca44888d2627b27267c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples.unitypackage using Guid(dd726bdc743dca44888d2627b27267c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9877e1e51b7c4ff7bd3e2a3872aa981d') in 0.041221 seconds
+  Import took 0.043975 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000588 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.054 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.4 MB.
+System memory in use after: 65.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1724.
+Total: 1.906300 ms (FindLiveObjects: 0.206000 ms CreateObjectMapping: 0.060000 ms MarkObjects: 1.574500 ms  DeleteObjects: 0.064500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.557437 seconds.
+  path: Assets/Dreamteck/Splines/PlaymakerActions.unitypackage
+  artifactKey: Guid(9c6565d620e1e8943a2194cba93f2d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/PlaymakerActions.unitypackage using Guid(9c6565d620e1e8943a2194cba93f2d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613fb4cd95aad6375b01d3002f2bb563') in 0.021545 seconds
+  Import took 0.024663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.535295 seconds.
+  path: Assets/Dreamteck/Splines/Examples
+  artifactKey: Guid(4fc474ef3be475a4a9990ce54e987788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples using Guid(4fc474ef3be475a4a9990ce54e987788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6600b4e4a3c49261a1210e1a0615c06') in 0.004998 seconds
+  Import took 0.007700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.746318 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Following
+  artifactKey: Guid(f93cac7bf942f7a429150f47aface1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Following using Guid(f93cac7bf942f7a429150f47aface1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0f2c53cc2b69f9fb54f7edc1531a8e') in 0.007344 seconds
+  Import took 0.010271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Following
+  artifactKey: Guid(f93cac7bf942f7a429150f47aface1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Following using Guid(f93cac7bf942f7a429150f47aface1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0f2c53cc2b69f9fb54f7edc1531a8e') in 0.001951 seconds
+  Import took 0.004391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.914942 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Following/Scene.unity
+  artifactKey: Guid(3d9c5bdf759276d4ca2c4ff4247e3dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Following/Scene.unity using Guid(3d9c5bdf759276d4ca2c4ff4247e3dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3bd78b8d2e886fca655c420b2b50788') in 0.007864 seconds
+  Import took 0.010538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 392.187478 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Junctions/Scene.unity
+  artifactKey: Guid(dfd4d23a0f6b8db438a0badec539b589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Junctions/Scene.unity using Guid(dfd4d23a0f6b8db438a0badec539b589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da94d19d9a2a48f86e24716909448f6f') in 0.002528 seconds
+  Import took 0.005834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.426672 seconds.
+  path: Assets/Dreamteck/Splines/Examples/LengthEvents/LengthEvents.unity
+  artifactKey: Guid(959112f23950bc646a43f61743a01a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/LengthEvents/LengthEvents.unity using Guid(959112f23950bc646a43f61743a01a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f4b195c785b210fceab3b1305ab406') in 0.017537 seconds
+  Import took 0.020372 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000880 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1727.
+Total: 2.386600 ms (FindLiveObjects: 0.212200 ms CreateObjectMapping: 0.106000 ms MarkObjects: 2.009400 ms  DeleteObjects: 0.057600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 268.992767 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Morphs/Scene.unity
+  artifactKey: Guid(f2e56efd764ca5b47a1bfd8a30451de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Morphs/Scene.unity using Guid(f2e56efd764ca5b47a1bfd8a30451de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5283494aeabe4de1525e6cc2c42bb5d') in 0.022115 seconds
+  Import took 0.025062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.870102 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Projection/Scene.unity
+  artifactKey: Guid(eef173721c81cc8409ca7eec79c6a666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Projection/Scene.unity using Guid(eef173721c81cc8409ca7eec79c6a666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2161fda9dbcad4dd7226465a77f7f033') in 0.002784 seconds
+  Import took 0.005642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.532464 seconds.
+  path: Assets/Dreamteck/Splines/Examples/RollerCoaster/Scene.unity
+  artifactKey: Guid(21a6bf6157f8a7c43b2a813c3edf889f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/RollerCoaster/Scene.unity using Guid(21a6bf6157f8a7c43b2a813c3edf889f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070cfd83bb0dc8b2b7a34693e7d1d6cd') in 0.002203 seconds
+  Import took 0.004732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.881578 seconds.
+  path: Assets/Dreamteck/Splines/Examples/RollerCoaster/Sounds
+  artifactKey: Guid(9bc478a8badf52f4bb4296cbd4c25b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/RollerCoaster/Sounds using Guid(9bc478a8badf52f4bb4296cbd4c25b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52da39cbfc264f5cd2f3904353e6c865') in 0.007286 seconds
+  Import took 0.009980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.779541 seconds.
+  path: Assets/Dreamteck/Splines/Examples/RollerCoaster/Sounds/boost.ogg
+  artifactKey: Guid(5abdc07bf8fa3d843afcfdfaedb9b1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/RollerCoaster/Sounds/boost.ogg using Guid(5abdc07bf8fa3d843afcfdfaedb9b1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64266e227004256a5b36750f0df9a022') in 0.094338 seconds
+  Import took 0.096855 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000907 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.000 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1738.
+Total: 2.240100 ms (FindLiveObjects: 0.199400 ms CreateObjectMapping: 0.049500 ms MarkObjects: 1.938000 ms  DeleteObjects: 0.052300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.841432 seconds.
+  path: Assets/Dreamteck/Splines/Examples/RollerCoaster/Sounds/brake.ogg
+  artifactKey: Guid(d685a435f3d3b234ea050150be8bb39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/RollerCoaster/Sounds/brake.ogg using Guid(d685a435f3d3b234ea050150be8bb39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63207abea036d761a17bbb3d86c06e2a') in 0.050510 seconds
+  Import took 0.053419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.801429 seconds.
+  path: Assets/Dreamteck/Splines/Examples/RollerCoaster/Sounds/fast.ogg
+  artifactKey: Guid(c54de69dc6ac3724bb2cacb2bbc005bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/RollerCoaster/Sounds/fast.ogg using Guid(c54de69dc6ac3724bb2cacb2bbc005bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c33df263508ec668dadc3db6a45d694') in 0.012802 seconds
+  Import took 0.015380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.030883 seconds.
+  path: Assets/Dreamteck/Splines/Examples/RollerCoaster/Sounds/medium.ogg
+  artifactKey: Guid(9c8749c2500683948a5bc4743a4c2f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/RollerCoaster/Sounds/medium.ogg using Guid(9c8749c2500683948a5bc4743a4c2f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4169a66f3a5af84db1202e038b2b83a') in 0.012448 seconds
+  Import took 0.015455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.094589 seconds.
+  path: Assets/Dreamteck/Splines/Examples/RollerCoaster/Sounds/medium_transition.ogg
+  artifactKey: Guid(4c3cc7133b56c54489dbbd4834475983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/RollerCoaster/Sounds/medium_transition.ogg using Guid(4c3cc7133b56c54489dbbd4834475983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec91533bbfe7d22b847d6cddaf19956a') in 0.012264 seconds
+  Import took 0.015037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.663872 seconds.
+  path: Assets/Dreamteck/Splines/Examples/RollerCoaster/Sounds/normal.ogg
+  artifactKey: Guid(388112c2baf24a141bdf1683678d6171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/RollerCoaster/Sounds/normal.ogg using Guid(388112c2baf24a141bdf1683678d6171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8646cc1aaf9f5774da1ca23061d225') in 0.020629 seconds
+  Import took 0.023582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004397 seconds.
+  path: Assets/Dreamteck/Splines/Examples/RollerCoaster/Sounds/normal.ogg
+  artifactKey: Guid(388112c2baf24a141bdf1683678d6171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/RollerCoaster/Sounds/normal.ogg using Guid(388112c2baf24a141bdf1683678d6171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8646cc1aaf9f5774da1ca23061d225') in 0.006913 seconds
+  Import took 0.009686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.571691 seconds.
+  path: Assets/Dreamteck/Splines/Examples/RollerCoaster/Sounds/slow.ogg
+  artifactKey: Guid(d79c6cdaf9d3be84e941a1f375609bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/RollerCoaster/Sounds/slow.ogg using Guid(d79c6cdaf9d3be84e941a1f375609bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925fca7eeb7aaf9b8f8dde8b295cdf77') in 0.011477 seconds
+  Import took 0.014273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.311616 seconds.
+  path: Assets/Dreamteck/Splines/Examples/RollerCoaster/Sounds/static.ogg
+  artifactKey: Guid(b6f3c6162b8eef7489028bc7a4d5e19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/RollerCoaster/Sounds/static.ogg using Guid(b6f3c6162b8eef7489028bc7a4d5e19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee561dce58f9364ccb61c55b117fa37') in 0.010650 seconds
+  Import took 0.013602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 375.181750 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a2e40e81d35f9ada7821be9923d9eb') in 0.009433 seconds
+  Import took 0.015002 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000734 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.956 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1742.
+Total: 2.962000 ms (FindLiveObjects: 0.413700 ms CreateObjectMapping: 0.188000 ms MarkObjects: 2.282500 ms  DeleteObjects: 0.074800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000663 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.962 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1745.
+Total: 2.693700 ms (FindLiveObjects: 0.331400 ms CreateObjectMapping: 0.155700 ms MarkObjects: 2.136300 ms  DeleteObjects: 0.068600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1636.407574 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Junctions/Materials/Train.mat
+  artifactKey: Guid(a31c9f4bf89507a4e87a81fa3d1badea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Junctions/Materials/Train.mat using Guid(a31c9f4bf89507a4e87a81fa3d1badea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da1b4a28aef48429c14d646e0efe57a') in 0.238838 seconds
+  Import took 0.241874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Dreamteck/Splines/Examples/AudioVisualization/waveform.mat
+  artifactKey: Guid(01b24eeeed3c8c34ca64d698388e0216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/AudioVisualization/waveform.mat using Guid(01b24eeeed3c8c34ca64d698388e0216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde147a6873bdf85790a22f91e54d41d') in 0.051928 seconds
+  Import took 0.055245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Junctions/Materials/Train.mat
+  artifactKey: Guid(a31c9f4bf89507a4e87a81fa3d1badea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Junctions/Materials/Train.mat using Guid(a31c9f4bf89507a4e87a81fa3d1badea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da1b4a28aef48429c14d646e0efe57a') in 0.029065 seconds
+  Import took 0.032308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.359043 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Morphs/Morph.mat
+  artifactKey: Guid(330e949826f77f648a0b4a70ca788d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Morphs/Morph.mat using Guid(330e949826f77f648a0b4a70ca788d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dec44b8e6f911fc6943f1d1a33e1142') in 0.105566 seconds
+  Import took 0.108620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Following/Meshes/comp.fbx
+  artifactKey: Guid(20f2ce228099fae43b8da4b5b177ebc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Following/Meshes/comp.fbx using Guid(20f2ce228099fae43b8da4b5b177ebc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77dca82a1092190114a16dfed20868e2') in 0.097791 seconds
+  Import took 0.100484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.298451 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Following/Material/MaterialColorsheet.mat
+  artifactKey: Guid(a97822256caa3254fb7b880303af5694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Following/Material/MaterialColorsheet.mat using Guid(a97822256caa3254fb7b880303af5694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f49bfddf657aa51aa235960e439008') in 0.020681 seconds
+  Import took 0.023636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.915942 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Following/Meshes/EA_Rock32.fbx
+  artifactKey: Guid(afd4357feb5fcea47b84c9d3c41a6b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Following/Meshes/EA_Rock32.fbx using Guid(afd4357feb5fcea47b84c9d3c41a6b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc44a3cc3c05efbf0773cbc91f68286d') in 0.018420 seconds
+  Import took 0.021841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Following/Meshes/EA_Swamp_tree6.fbx
+  artifactKey: Guid(888af381b175d31469e35c2145b65f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Following/Meshes/EA_Swamp_tree6.fbx using Guid(888af381b175d31469e35c2145b65f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57870fff50f745b28af6d4759138023b') in 0.020760 seconds
+  Import took 0.023248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035737 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Following/Meshes/EA_Bush2d.fbx
+  artifactKey: Guid(46aaeae69e1ce6c4b9be2bc9395177c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Following/Meshes/EA_Bush2d.fbx using Guid(46aaeae69e1ce6c4b9be2bc9395177c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb299d6ff1243350f37d531a1e438cd') in 0.022929 seconds
+  Import took 0.025614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Following/Meshes/EA_Pier1_end.fbx
+  artifactKey: Guid(72319510d946ec04cad1d75fc861de34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Following/Meshes/EA_Pier1_end.fbx using Guid(72319510d946ec04cad1d75fc861de34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16585ff8974638aba7566785484c2bb8') in 0.020436 seconds
+  Import took 0.022769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093817 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Following/Meshes/EA_branch4.fbx
+  artifactKey: Guid(622e8142a7490d14a8e746ec9ea6df60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Following/Meshes/EA_branch4.fbx using Guid(622e8142a7490d14a8e746ec9ea6df60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b5ad0bdc2d3bcdc2079a31302962a8') in 0.018891 seconds
+  Import took 0.021659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Following/Meshes/EA_Bush1c.fbx
+  artifactKey: Guid(b8c53a539e7e45741b64c1c8041b2b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Following/Meshes/EA_Bush1c.fbx using Guid(b8c53a539e7e45741b64c1c8041b2b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38c43872f1a24610c0c30bf64a9b0e3') in 0.028104 seconds
+  Import took 0.030616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.487657 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Junctions/Materials/Grid.mat
+  artifactKey: Guid(fb4b2318e00356e488a33e23b3149d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Junctions/Materials/Grid.mat using Guid(fb4b2318e00356e488a33e23b3149d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a4bcd020a9d8d7bf4bed1ed898dbff') in 0.013045 seconds
+  Import took 0.015732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Projection/Materials/Marble.mat
+  artifactKey: Guid(4e17d0dc509bc124da84af0542ff3b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Projection/Materials/Marble.mat using Guid(4e17d0dc509bc124da84af0542ff3b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e3f3925952b21cc538af0e7bde4154') in 0.029365 seconds
+  Import took 0.031635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084174 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Projection/Materials/Dash.mat
+  artifactKey: Guid(6393b89f619d12444863127cb04b543e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Projection/Materials/Dash.mat using Guid(6393b89f619d12444863127cb04b543e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5d16f0e8f46722a2beeeec01514599') in 0.013702 seconds
+  Import took 0.016751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 870.746236 seconds.
+  path: Assets/Dreamteck/Splines/Examples/AudioVisualization
+  artifactKey: Guid(697ebf7ed5a30534f986e12322125e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/AudioVisualization using Guid(697ebf7ed5a30534f986e12322125e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbb4c77ace0cb855c33051912117afe') in 0.007085 seconds
+  Import took 0.010223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007836 seconds.
+  path: Assets/Dreamteck/Splines/Examples/AudioVisualization
+  artifactKey: Guid(697ebf7ed5a30534f986e12322125e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/AudioVisualization using Guid(697ebf7ed5a30534f986e12322125e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbb4c77ace0cb855c33051912117afe') in 0.004534 seconds
+  Import took 0.006941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.766646 seconds.
+  path: Assets/Dreamteck/Splines/Examples/AudioVisualization/Scene.unity
+  artifactKey: Guid(0301a41c55c587049881a6343225739c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/AudioVisualization/Scene.unity using Guid(0301a41c55c587049881a6343225739c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84a8417a86e6bd96f826aed4db85540') in 0.002825 seconds
+  Import took 0.005786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.805174 seconds.
+  path: Assets/Dreamteck/Splines/Examples/AudioVisualization/SpectrumVisualizer.cs
+  artifactKey: Guid(a96d0f6951e54f54aa61fa5b357652d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/AudioVisualization/SpectrumVisualizer.cs using Guid(a96d0f6951e54f54aa61fa5b357652d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b245fd8eb37712b09c1e9c0f3339e5fe') in 0.018919 seconds
+  Import took 0.021806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029307 seconds.
+  path: Assets/Dreamteck/Splines/Examples/AudioVisualization/SpectrumVisualizer.cs
+  artifactKey: Guid(a96d0f6951e54f54aa61fa5b357652d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/AudioVisualization/SpectrumVisualizer.cs using Guid(a96d0f6951e54f54aa61fa5b357652d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b245fd8eb37712b09c1e9c0f3339e5fe') in 0.002335 seconds
+  Import took 0.005821 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001475 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.876 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.6 MB.
+System memory in use after: 137.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1788.
+Total: 7.449500 ms (FindLiveObjects: 0.415700 ms CreateObjectMapping: 0.189100 ms MarkObjects: 6.644100 ms  DeleteObjects: 0.196400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000562 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.918 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.6 MB.
+System memory in use after: 137.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1791.
+Total: 1.965600 ms (FindLiveObjects: 0.172900 ms CreateObjectMapping: 0.048100 ms MarkObjects: 1.681400 ms  DeleteObjects: 0.062600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000574 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.6 MB.
+System memory in use after: 137.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1794.
+Total: 3.505700 ms (FindLiveObjects: 0.367900 ms CreateObjectMapping: 0.122700 ms MarkObjects: 2.905600 ms  DeleteObjects: 0.106000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 308.792224 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72cc4f18341d821e5f3bb21c5bbdbcfd') in 0.012431 seconds
+  Import took 0.015407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003980 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72cc4f18341d821e5f3bb21c5bbdbcfd') in 0.003337 seconds
+  Import took 0.006196 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000567 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.978 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.6 MB.
+System memory in use after: 137.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1797.
+Total: 2.097200 ms (FindLiveObjects: 0.209700 ms CreateObjectMapping: 0.092600 ms MarkObjects: 1.738600 ms  DeleteObjects: 0.054500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 985.824790 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Projection/Materials/Dash.mat
+  artifactKey: Guid(6393b89f619d12444863127cb04b543e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Projection/Materials/Dash.mat using Guid(6393b89f619d12444863127cb04b543e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e65e924f70e8f2e55ceacd2dd4c0c0f') in 0.073761 seconds
+  Import took 0.077288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002963 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Projection/Materials/Dash.mat
+  artifactKey: Guid(6393b89f619d12444863127cb04b543e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Projection/Materials/Dash.mat using Guid(6393b89f619d12444863127cb04b543e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e65e924f70e8f2e55ceacd2dd4c0c0f') in 0.008037 seconds
+  Import took 0.011038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.025349 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4856052512617ee48189cf1d7999900') in 0.006950 seconds
+  Import took 0.010223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006991 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4856052512617ee48189cf1d7999900') in 0.002686 seconds
+  Import took 0.005657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.823558 seconds.
+  path: Assets/_www.unityassetcollection.com.txt
+  artifactKey: Guid(121635d3d1da3c44b83c09f6712588a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_www.unityassetcollection.com.txt using Guid(121635d3d1da3c44b83c09f6712588a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd937ed5ff89f4efd1801628b670cac95') in 0.012546 seconds
+  Import took 0.015116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.740971 seconds.
+  path: Assets/MAterials
+  artifactKey: Guid(54d53eff9ea3eb3499732c133024628f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAterials using Guid(54d53eff9ea3eb3499732c133024628f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3edc7fd79b6e2052803a5209ce49f4') in 0.007375 seconds
+  Import took 0.010094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.443993 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(54d53eff9ea3eb3499732c133024628f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(54d53eff9ea3eb3499732c133024628f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e11b495f731965a99ff76fe94ce38d7') in 0.006749 seconds
+  Import took 0.009762 seconds .
+
