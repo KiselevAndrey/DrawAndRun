@@ -11,8 +11,11 @@ public class DrawLine : MonoBehaviour
     [Header("Parameters")]
     [SerializeField, Min(0)] private float minDistance = 0.1f;
 
+    public static System.Action<List<Vector2>> OnEndTouch;
+
+    private GameObject _line;
     private LineRenderer _lineRenderer;
-    private List<Vector3> _fingerPosition = new List<Vector3>();
+    private List<Vector2> _fingerPosition = new List<Vector2>();
     private Vector3 _currentFingerPosition;
     private bool _isFirstTouch = true;
 
@@ -24,9 +27,14 @@ public class DrawLine : MonoBehaviour
             {
                 if (!_isFirstTouch) UpdateLine();
                 else CreateLine();
-            }            
+            }
         }
-        else if (!_isFirstTouch) _isFirstTouch = true;
+        else if (!_isFirstTouch)
+        {
+            _isFirstTouch = true;
+            OnEndTouch?.Invoke(_fingerPosition);
+            Destroy(_line);            
+        }
     }
 
     private void CreateLine()
@@ -35,8 +43,8 @@ public class DrawLine : MonoBehaviour
         _fingerPosition.Add(_currentFingerPosition);
         _fingerPosition.Add(_currentFingerPosition);
 
-        _lineRenderer = Instantiate(linePrefab, lineParent).GetComponent<LineRenderer>();
-        //_lineRenderer = Instantiate(linePrefab).GetComponent<LineRenderer>();
+        _line = Instantiate(linePrefab, lineParent);
+        _lineRenderer = _line.GetComponent<LineRenderer>();
         _lineRenderer.SetPosition(0, _currentFingerPosition);
         _lineRenderer.SetPosition(1, _currentFingerPosition);
 
@@ -45,7 +53,7 @@ public class DrawLine : MonoBehaviour
 
     private void UpdateLine()
     {
-        if(Vector3.Distance(_currentFingerPosition, _fingerPosition[_fingerPosition.Count - 1]) > minDistance)
+        if(Vector2.Distance(_currentFingerPosition, _fingerPosition[_fingerPosition.Count - 1]) > minDistance)
         {
             _fingerPosition.Add(_currentFingerPosition);
             _lineRenderer.positionCount++;

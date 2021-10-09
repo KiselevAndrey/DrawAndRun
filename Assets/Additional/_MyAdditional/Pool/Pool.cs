@@ -11,6 +11,18 @@ namespace KAP.Pool
 
         #region Spawn
         /// <summary>This allows you to spawn a prefab with GameObject.</summary>
+        public static GameObject Spawn(GameObject prefab) => Spawn(prefab, prefab.transform.localPosition, prefab.transform.localRotation);
+
+        /// <summary>This allows you to spawn a prefab with GameObject.</summary>
+        public static GameObject Spawn(GameObject prefab, Transform parent, bool worldPositionStays = false)
+        {
+            if (parent != null && worldPositionStays == true)
+                return Spawn(prefab, prefab.transform.position, Quaternion.identity, parent, worldPositionStays);
+
+            return Spawn(prefab, prefab.transform.localPosition, prefab.transform.localRotation, parent, false);
+        }
+
+        /// <summary>This allows you to spawn a prefab with GameObject.</summary>
         public static GameObject Spawn(GameObject prefab, Vector3 position) => Spawn(prefab, position, Quaternion.identity);
 
         /// <summary>This allows you to spawn a prefab with GameObject.</summary>
