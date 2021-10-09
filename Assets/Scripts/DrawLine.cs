@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class DrawLine : MonoBehaviour
 {
+    private enum RayCastSystem { Square_2D, Box_3D }
+
     [Header("References")]
     [SerializeField] private Camera mainCamera;
     [SerializeField] private GameObject linePrefab;
@@ -10,6 +12,7 @@ public class DrawLine : MonoBehaviour
 
     [Header("Parameters")]
     [SerializeField, Min(0)] private float minDistance = 0.1f;
+    [SerializeField] private RayCastSystem rayCastSystem;
 
     public static System.Action<List<Vector2>> OnEndTouch;
 
@@ -66,13 +69,27 @@ public class DrawLine : MonoBehaviour
     {
         position = Vector3.zero;
         Touch touch = Input.GetTouch(0);
-        Ray ray = mainCamera.ScreenPointToRay(touch.position);
-
-
-        if (Physics.Raycast(ray, out RaycastHit hit))
+        switch (rayCastSystem)
         {
-            position = hit.point;
-            return true;
+            case RayCastSystem.Square_2D:
+                RaycastHit2D hit2D = Physics2D.Raycast(mainCamera.ScreenToWorldPoint(touch.position), Vector2.zero);
+
+                if (hit2D.collider != null)
+                {
+                    position = hit2D.point;
+                    return true;
+                }
+                break;
+
+            case RayCastSystem.Box_3D:
+                Ray ray = mainCamera.ScreenPointToRay(touch.position);
+                
+                if (Physics.Raycast(ray, out RaycastHit hit))
+                {
+                    position = hit.point;
+                    return true;
+                }
+                break;
         }
 
         return false;
