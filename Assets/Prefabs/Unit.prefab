@@ -1016,6 +1016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3969982933733434698}
   - component: {fileID: -5085640589294488089}
+  - component: {fileID: 3181874671483142235}
   m_Layer: 0
   m_Name: Unit
   m_TagString: Untagged
@@ -1050,6 +1051,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ed8b2ecd8ff0c24e851cb2212b30510, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 626559902495363127}
+--- !u!136 &3181874671483142235
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3969982933733434699}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 2.7811642
+  m_Height: 10.900447
+  m_Direction: 1
+  m_Center: {x: 0, y: 5, z: 0}
 --- !u!1 &4061406093767223608
 GameObject:
   m_ObjectHideFlags: 0

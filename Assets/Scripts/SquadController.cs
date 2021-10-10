@@ -19,11 +19,13 @@ public class SquadController : MonoBehaviour
     {
         CreateFirstUnits();
         DrawLine.OnEndTouch += PlaceUnits;
+        UnitController.UnitDeath += UnitDeath;
     }
 
     private void OnDestroy()
     {
         DrawLine.OnEndTouch -= PlaceUnits;
+        UnitController.UnitDeath -= UnitDeath;
     }
     #endregion
 
@@ -38,6 +40,12 @@ public class SquadController : MonoBehaviour
         GameIsStarted(false);
     }
 
+    #region Actions
+    private void UnitDeath(UnitController unit)
+    {
+        _units.Remove(unit);
+    }
+
     private void PlaceUnits(List<Vector2> localPositions)
     {
         if (!_gameIsStarted)
@@ -46,6 +54,8 @@ public class SquadController : MonoBehaviour
         //PlaceUnitsFromPositionsCount(localPositions);
         PlaceUnitsFromPositionsLength(localPositions);
     }
+    #endregion
+
 
     #region PlaceUnitsFromPositionsLength
     private void PlaceUnitsFromPositionsLength(List<Vector2> localPositions)
@@ -144,5 +154,13 @@ public class SquadController : MonoBehaviour
     {
         _gameIsStarted = value;
         follower.follow = value;
+    }
+
+    public void IsFinised()
+    {
+        foreach (var unit in _units)
+        {
+            unit.IsFinised();
+        }
     }
 }

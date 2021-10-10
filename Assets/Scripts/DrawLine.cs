@@ -22,7 +22,7 @@ public class DrawLine : MonoBehaviour
     private Vector3 _currentFingerPosition;
     private bool _isFirstTouch = true;
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (Input.touchCount > 0)
         {
@@ -83,6 +83,7 @@ public class DrawLine : MonoBehaviour
 
             case RayCastSystem.Box_3D:
                 Ray ray = mainCamera.ScreenPointToRay(touch.position);
+                Debug.DrawRay(ray.GetPoint(0), ray.direction, Color.black, 1000);
                 
                 if (Physics.Raycast(ray, out RaycastHit hit))
                 {
